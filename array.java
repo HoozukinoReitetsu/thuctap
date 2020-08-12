@@ -13,19 +13,19 @@ int binarySearch(int arr[], int l, int r, int x) {
             if (r >= l) {
               int mid = l + (r - l) / 2; 
 
-              // N?u arr[mid] = x.
+              // Nếu arr[mid] = x.
               if (arr[mid] == x)
                 return x;
 
-              // N?u arr[mid] > x, th?c hi?n t�m ki?m n?a tr�i c?a m?ng
+              // Nếu arr[mid] > x, thực hiện tìm kiếm nửa trái của mang
               if (arr[mid] > x)
                 return binarySearch(arr, l, mid - 1, x);
 
-              // N?u arr[mid] < x, th?c hi?n t�m ki?m n?a ph?i c?a m?ng
+              // Nếu arr[mid] < x, thực hiện tìm kiếm nửa phải của mảng
               return binarySearch(arr, mid + 1, r, x);
             }
 
-            // N?u kh�ng t�m th?y
+            // Nếu không tìm thấy
             return 0;
         }
     /**
@@ -36,7 +36,7 @@ int binarySearch(int arr[], int l, int r, int x) {
         int[] arr1={1,3,4,6,7,8,9,12,23,34,46,49,55,78,89,90,134,145,156};
         int[] arr2={9,13,15,19,20,30,34,39,46,49,59,65,78,95,167,200,346};
         array ob = new array();
-        System.out.println("C�c ph?n t? giao nhau:");
+        System.out.println("Các phần tử giao nhau:");
         for(int i=0;i<arr2.length;i++){
             int r=arr1.length;
             int result = ob.binarySearch(arr1,0,r-1,arr2[i]);
