@@ -32,7 +32,6 @@ int binarySearch(int arr[], int l, int r, int x) {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        // TODO code application logic here
         int[] arr1={1,3,4,6,7,8,9,12,23,34,46,49,55,78,89,90,134,145,156};
         int[] arr2={9,13,15,19,20,30,34,39,46,49,59,65,78,95,167,200,346};
         array ob = new array();
