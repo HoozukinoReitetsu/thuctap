@@ -14,6 +14,7 @@ public class stack{
             tmp=sc.nextInt();
             s.push(tmp);
         }
+        System.out.println(s.peek());
         Stack<Integer> result=new Stack<Integer>();
         while(!s.isEmpty()){
             int tmp=s.pop();
@@ -28,7 +29,6 @@ public class stack{
         System.out.println("Stack after sort");
         Stream<Integer> stream = s.stream();
         stream.forEach(item -> System.out.println(item));
-        
         sc.close();
     }
 }

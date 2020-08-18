@@ -1,4 +1,4 @@
-package database;
+package bai_2;
 
 public class City {
     private int id,population;
