@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - main",
             "request": "launch",
+            "mainClass": "bai_2.main",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - main",
+            "request": "launch",
             "mainClass": "database.main",
             "projectName": "thuctap_446151a"
         },
