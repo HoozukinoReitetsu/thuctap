@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SearchPositionInArray",
+            "request": "launch",
+            "mainClass": "SearchPositionInArray",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - main",
             "request": "launch",
             "mainClass": "bai_2.main",
