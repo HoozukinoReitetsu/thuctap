@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CountingSort",
+            "request": "launch",
+            "mainClass": "CountingSort",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "thuctap_d34cb52a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchPositionInArray",
             "request": "launch",
             "mainClass": "SearchPositionInArray",

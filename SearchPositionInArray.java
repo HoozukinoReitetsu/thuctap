@@ -54,6 +54,7 @@ public class SearchPositionInArray {
 
         int index1 = findFirstOccurrence(A, target );
         int index2 = findLastOccurrence(A, target );
+        // neu tim thay 
         if (index1 != -1 && index2!=-1) {
             if(index1!=index2) System.out.println("["+index1+','+index2+"]");
             else System.out.println(index1);
