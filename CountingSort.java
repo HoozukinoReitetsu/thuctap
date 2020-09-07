@@ -1,8 +1,16 @@
 public class CountingSort {
 
+    public static int max(int[] arr){
+        int max=0;
+        for(int i =0;i<arr.length;i++){
+            if(arr[i]>max) max=arr[i];
+        }
+        return max;
+    }
     public static void counting_sort(int[] arr) {
         int n = arr.length; 
-        int size=500;
+        int size=max(arr)+1;
+        if(size<n) size=n;
         int output[] = new int[n]; 
         int count[] = new int[size]; 
         for (int i = 0; i <n; ++i) count[i] = 0; 
@@ -15,14 +23,12 @@ public class CountingSort {
             output[count[arr[i]] - 1] = arr[i]; 
             count[arr[i]]--; 
         } 
-
         for (int i = 0; i < n; ++i) 
             arr[i] = output[i]; 
-
     }
 
     public static void main(String[] args) {
-        int input[] = { 1, 5, 2, 7, 4, 4, 1, 5,0,0,0};
+        int input[] = { 1, 5, 2, 7, 4, 4, 1, 5,0,0,0,14,12,19};
         counting_sort(input);
         System.out.println("Sorted Array : ");
         for (int i = 0; i < input.length; i++) System.out.print(input[i]+" ");
