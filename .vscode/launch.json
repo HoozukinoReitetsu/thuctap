@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestAdapter",
+            "request": "launch",
+            "mainClass": "DesignPattern.src.AdapterPattern.TestAdapter",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestChaino",
+            "request": "launch",
+            "mainClass": "DesignPattern.src.ChainofResponsibility.TestChaino",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestFactory",
+            "request": "launch",
+            "mainClass": "DesignPattern.src.Factory.TestFactory",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestSingleton",
+            "request": "launch",
+            "mainClass": "DesignPattern.src.Singleton.TestSingleton",
+            "projectName": "thuctap_446151a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CountingSort",
             "request": "launch",
             "mainClass": "CountingSort",
